@@ -1,0 +1,33 @@
+.headerDown {
+  position: sticky;
+  top: 70px;
+  right: 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  box-shadow: 5px 1px 5px rgba(179, 179, 179, 0.411),
+    -5px 2px 5px rgba(179, 179, 179, 0.322);
+  z-index: 999;
+}
+
+.headerDown > ul {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.headerList {
+  list-style: none;
+}
+
+.headerList > a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #222222;
+  margin-left: 2rem;
+}
+
+.headerList > a:hover {
+  color: #8400ff;
+}

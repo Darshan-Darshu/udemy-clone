@@ -1,0 +1,117 @@
+.header {
+  position: sticky;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 70px;
+  border-bottom: 1px solid lightgrey;
+  z-index: 999;
+}
+
+/* Header Left */
+
+.header__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-left: 1rem;
+}
+
+.header__logo {
+  width: 120px;
+  height: 120px;
+}
+
+.header__logo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.header__left > p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.header__left > p:hover {
+  color: #8400ff;
+}
+
+/* Header Middle */
+.header__middle {
+  flex: 1;
+}
+
+.header__middle > form {
+  display: flex;
+  align-items: center;
+  background-color: #f7f9fa;
+  border: 1px solid #000;
+  border-radius: 40px;
+  padding: 0.7rem;
+  flex: 1;
+}
+
+.header__middle > form > input {
+  width: 100%;
+  border: none;
+  margin-left: 0.8rem;
+  background-color: transparent;
+  outline: 0;
+}
+
+.header__middle > form > button {
+  display: none;
+}
+
+/* Header Rigth */
+
+.header__rigth > ul {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.header__rigth > ul > li {
+  margin-right: 1rem;
+  font-size: 14px;
+}
+
+.header__rigth > ul > li > a {
+  color: #000;
+  text-decoration: none;
+}
+
+.header__rigth > ul > li > a:hover {
+  color: #8400ff;
+}
+
+/* Header Icons */
+
+.header__icons {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+
+.header__icon {
+  margin-right: 1.5rem;
+}
+
+.header__avatar {
+  margin-right: 1.5rem;
+}
+
+.header__avatarMain {
+  height: 30px !important;
+  width: 30px !important;
+  object-fit: contain;
+}

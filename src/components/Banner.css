@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+
+.banner {
+  width: 100%;
+  height: 410px;
+}
+
+.banner__container {
+  display: flex;
+  align-items: center;
+  background: url("../img/Banner.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.banner__details {
+  margin-bottom: 3rem;
+  width: 400px;
+  height: 210px;
+  background-color: #fff;
+  margin-left: 3rem;
+  padding: 1.5rem 2rem;
+  box-shadow: 1px 1px 5px rgba(179, 179, 179, 0.411),
+    -1px 2px 5px rgba(179, 179, 179, 0.322);
+}
+
+.banner__details > h1 {
+  font-family: Vidaloka;
+  font-size: 42px;
+}
+
+.banner__details > p {
+  font-size: 18px;
+  color: #353535;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
