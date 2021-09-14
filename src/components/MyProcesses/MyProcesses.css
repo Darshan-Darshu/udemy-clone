@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap");
+
+.myProcesses {
+  margin: 30px 0;
+  margin-bottom: 40px;
+}
+
+.myProcesses__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.myProcesses__header > h1 {
+  font-size: 30px;
+  font-family: IBM;
+}
+
+.myProcesses__header > a {
+  font-size: 18px;
+  margin-right: 10px;
+  font-weight: 600;
+  color: #661ed8;
+  text-decoration: none;
+  border-bottom: 2px solid #6723d4;
+}
+
+.myProcesses__main {
+  display: flex;
+}
+
+.myProcesses__courseDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+  margin-top: 50px;
+  background-color: #111;
+  color: #fff;
+  padding: 0 20px;
+  height: 65px;
+}
+
+.myProcesses__courseDetails > p {
+  font-size: 15px;
+  letter-spacing: 0.8;
+}
+
+.myProcesses__courseDetails > p > span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.myProcesses__links {
+  display: flex;
+  align-items: center;
+}
+
+.myProcesses__links > a,
+.myProcesses__links > button {
+  background-color: #fff;
+  padding: 10px;
+  font-size: 14px;
+  color: #111;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.myProcesses__links > button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.myProcesses__links > button:hover {
+  background-color: #a8a8a871;
+}
+
+.myProcesses__links > a:hover {
+  opacity: 0.8;
+}

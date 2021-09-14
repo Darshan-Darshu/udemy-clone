@@ -1,0 +1,39 @@
+.newInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eceb98;
+  padding: 10px 0;
+}
+
+.newInfo__details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.newInfo__details > p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.newInfo__details > p > span {
+  font-weight: 700;
+  letter-spacing: 0.1px;
+}
+
+.newInfo__btn > button {
+  background-color: transparent;
+  border: none;
+  margin-right: 20px;
+  /* margin-bottom: 10px; */
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.newInfo__details > h1 {
+  font-size: 20px;
+  margin-top: 5px;
+}

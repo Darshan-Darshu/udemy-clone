@@ -1,0 +1,75 @@
+.myProcess {
+  display: flex;
+  width: 450px;
+  height: 150px;
+  border: 1px solid lightgrey;
+  margin: 0 10px;
+}
+
+.myProcess__image {
+  width: 130px;
+  height: 100%;
+  position: relative;
+}
+
+.myProcess__imageDuplicate {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.301);
+}
+
+.myProcess__image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.myProcess__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.myProcess__details {
+  flex: 1;
+  padding: 15px 20px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.myProcess__details > h3 {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: rgb(119, 119, 119);
+}
+
+.myProcess__details > h1 {
+  font-size: 15px;
+  flex: 1;
+}
+
+.myProcess__details > p {
+  font-size: 12px;
+  color: rgb(119, 119, 119);
+}
+
+.myProcess__details > p > span {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.myProcess__bar {
+  background-color: #d1d5e0;
+  width: 100%;
+  height: 8px;
+}
+
+.fill__bar {
+  background-color: #5c1da3;
+  height: 100%;
+  /* width: 25%; */
+}
